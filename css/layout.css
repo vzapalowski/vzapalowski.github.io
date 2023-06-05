@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+header h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: sticky;
+    top: 0px;
+}
+
+.image-placeholder {
+    background-color: #eee;
+    display: flex;
+    height: 180px;
+    margin: 1%;
+    width: 260px;
+}
+
+.image-placeholder > h4 {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
